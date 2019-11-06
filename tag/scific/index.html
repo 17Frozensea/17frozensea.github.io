@@ -1,216 +1,142 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="zh-CN">
+ <head>
+    <meta charset="utf-8" />
+  <title>小说 | 冻海上的船</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://17frozensea.github.io//styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://17frozensea.github.io//images/avatar.png?v=1573040007204" style="width:127px;" />
+
+     <div class="description">
+      <p>要把整片海都冻住
+如同我一般</p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
+
+
     
-<meta charset="utf-8" >
 
-<title>小说 | 冻海上的船</title>
-<meta name="description" content="要把整片海都冻住
-如同我一般">
+    
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://17frozensea.github.io//favicon.ico?v=1561647821652">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://17frozensea.github.io//styles/main.css">
+    
 
+    
 
+    
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    
 
+    
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142570942-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
 
-  gtag('config', 'UA-142570942-1');
-</script>
+    
 
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://17frozensea.github.io/">
-        <img class="avatar" src="https://17frozensea.github.io//images/avatar.png?v=1561647821652" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://17frozensea.github.io/">
-        <h1 class="site-title">冻海上的船</h1>
-      </a>
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   <a href="https://frozensea.xyz">感谢你付出的时间</a>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+    
+
     </div>
+   </div>
   </div>
-</div>
+  <div class="main">
+      <div class="page-top animated fadeInDown">
+    <div class="nav">
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="https://frozensea.xyz" class="menu" target="_blank">
-            压缩机
-          </a>
-        
-      
+     <li><a  href="/">首页</a></li>
+
+     <li><a  href="/archives">归档</a></li>
+
+     <li><a  href="/tags">标签</a></li>
+
+     <li><a  href="/post/about">关于</a></li>
+
+     <li><a  href="https://frozensea.xyz">压缩机</a></li>
+
+
     </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 小说
-          </h2> 
-        </div>
-
-        
-<section class="post-item">
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
     <div class="content">
-      <a href="https://17frozensea.github.io//post/love-pistol">
-        <h2 class="post-title">爱情枪</h2>
-      </a>
-      <div class="post-abstract">
-        <p><em>我有一把爱情枪，但是我无法获得爱情。</em></p>
-
+              
+     <div class="post animated fadeInDown">
+      <div class="post-title">
+       <h3><a href="https://17frozensea.github.io//post/love-pistol">爱情枪</a></h3>
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-06-28</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://17frozensea.github.io//tag/scific">
-                小说
-                
-              </a>
-            
-          </span>
-        
+      <div class="post-content">
+       <p><p><em>我有一把爱情枪，但是我无法获得爱情。</em></p>
+</p>
       </div>
-    </div>
-    
-      <a href="https://17frozensea.github.io//post/love-pistol">
-        <div class="feature-container" style="background-image: url('https://17frozensea.github.io//post-images/love-pistol.jpg')">
+      <div class="post-footer">
+       <div class="meta">
+        <div class="info">
+         <i class="fa fa-sun-o"></i>
+         <span class="date">2019-06-28</span>
+         <i class="fa fa-tag"></i>
+         
+         <a class="tag" href="https://17frozensea.github.io//tag/scific" title="小说">小说 </a>
+         
         </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://17frozensea.github.io//post/botanic_human">
-        <h2 class="post-title">浅谈基因技术与人类社会变迁史</h2>
-      </a>
-      <div class="post-abstract">
-        <p><em>是《树人》小说的一个背景介绍，写了故事发生之前（之间）基因编辑技术对人类社会的几次大的影响。</em></p>
-
+       </div>
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-06-21</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://17frozensea.github.io//tag/scific">
-                小说
-                
-              </a>
-            
-          </span>
-        
+     </div>
+       
+     <div class="post animated fadeInDown">
+      <div class="post-title">
+       <h3><a href="https://17frozensea.github.io//post/botanic_human">浅谈基因技术与人类社会变迁史</a></h3>
       </div>
-    </div>
-    
-      <a href="https://17frozensea.github.io//post/botanic_human">
-        <div class="feature-container" style="background-image: url('https://17frozensea.github.io//post-images/botanic_human.jpg')">
+      <div class="post-content">
+       <p><p><em>是《树人》小说的一个背景介绍，写了故事发生之前（之间）基因编辑技术对人类社会的几次大的影响。</em></p>
+</p>
+      </div>
+      <div class="post-footer">
+       <div class="meta">
+        <div class="info">
+         <i class="fa fa-sun-o"></i>
+         <span class="date">2019-06-21</span>
+         <i class="fa fa-tag"></i>
+         
+         <a class="tag" href="https://17frozensea.github.io//tag/scific" title="小说">小说 </a>
+         
         </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
+       </div>
       </div>
+     </div>
+     
+     <div class="pagination">
+      <ul class="clearfix">
+            
+        
 
-      <div class="site-footer">
-  <div class="slogan">要把整片海都冻住
-如同我一般</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+      </ul>
+     </div>
+    </div>
+   </div>
   </div>
-  <a href="https://frozensea.xyz">感谢你付出的时间</a> | <a class="rss" href="https://17frozensea.github.io//atom.xml" target="_blank">RSS</a>
-</div>
+  <script src="https://17frozensea.github.io//media/scripts/jquery.js"></script>
+  <script src="https://17frozensea.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://17frozensea.github.io//media/scripts/jquery.appear.js"></script>
 
 
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
+ </body>
 </html>
